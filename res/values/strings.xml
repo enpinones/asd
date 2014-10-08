@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global Aplicacion -->
+    <string name="app_name">Kanbannt</string>
+    <string name="top_menu_left_description">Opciones</string>
+    <string name="top_menu_middle_description">Logo</string>
+    <string name="top_menu_right_description">Ver proyectos</string>
+
+    <!-- Lista de actividades -->
+    <string name="top_menu">Aquí va el nombre</string>
+    <string name="spinner_date">Fecha:</string>
+    <string name="spinner_progress">Mostrar:</string>
+    <string name="common_button">B1</string>
+    <string name="text_date">Fecha:</string>
+    <string name="text_progress">Mostrar:</string>
+    <string name="view_task_description">Ver tarea</string>
+    <string name="report_task_description">Reportar tarea</string>
+    <string name="progress_task_description">Progreso</string>
+
+    <string-array name="array_date">
+        <item>Hoy</item>
+        <item>1 semana</item>
+        <item>3 semanas</item>
+        <item>Atrasadas</item>
+        <item>Todas</item>
+    </string-array>
+    <string-array name="array_progress">
+        <item>Todas</item>
+        <item>Inactivas</item>
+        <item>En Proceso</item>
+        <item>Terminadas</item>
+    </string-array>
+
+    <!-- Reporte actividades -->
+    <string name="viewTaskDescription">Ver tarea</string>
+    <string name="reportTaskDescription">Reportar tarea</string>
+    <string name="nombre_tarea">Nombre Tarea</string>
+    <string name="comentarios">Comentarios</string>
+    
+    <!-- Menu de actividad -->
+    <string name="task">Tarea</string>
+    <string name="report">Reporte</string>
+    <string name="comment">Observación</string>
+
+    <!-- Otros -->
+    <string name="login">Inicia sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Coreo electrónico</string>
+    <string name="aceptar">hola</string>
+    <string name="large_text">Large Text</string>
+    <string name="nombre_proyecto">probando</string>
+    <string name="action_settings">ahorasi</string>
+    <string name="comentarios_opcional_">Comentarios (Opcional)</string>
+    
+    <!-- Menu lateral -->
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Items Menu lateral-->
+    <string-array name="lateral_menu_items">
+        <item >Tareas</item>
+        <item >Gráficos</item>
+        <item >Usuario</item>
+    </string-array>
+     
+    <!-- Icons Menu lateral -->
+    <array name="lateral_menu_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+     
+    <!-- Descripción -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/task_menu_linear_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="30dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/task_menu_view_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/task"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/task_menu_report_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/report"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/task_menu_comment_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="@string/comment"
+        android:textSize="14sp" />
+
+</LinearLayout>

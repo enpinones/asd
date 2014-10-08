@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="innobis.kanban.cl"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cl.innobis.frontend.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cl.innobis.frontend.TaskList"
+            android:label="@string/app_name" />
+        <activity
+            android:name="cl.innobis.frontend.TaskReport"
+            android:label="@string/app_name" />
+        <activity
+            android:name="cl.innobis.frontend.TaskView"
+            android:label="@string/app_name" />
+        <activity
+            android:name="cl.innobis.frontend.MainActivity"
+            android:label="@string/app_name" />
+
+        <receiver android:name="cl.innobis.backend.AlarmReceiver" />
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"  >
+
+    <LinearLayout
+        android:id="@+id/task_view_layout"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.2"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/view_task_imagebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/task_icon"
+            android:contentDescription="@string/view_task_description"/>
+
+        <TextView
+            android:id="@+id/task_time_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/task_name_textview"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/progress_task_description"
+                android:src="@drawable/chart_icon" />
+
+            <TextView
+                android:id="@+id/task_progress_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp" />
+
+            <TextView
+                android:id="@+id/task_notifications_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.2" >
+
+        <ImageButton
+            android:id="@+id/report_task_imagebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/report_gray_icon"
+            android:contentDescription="@string/report_task_description"
+            android:focusable="false"/>
+    </RelativeLayout>
+
+</LinearLayout>

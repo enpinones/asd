@@ -1,0 +1,117 @@
+#
+# generated on 2014/10/07 09:14:25
+#
+# --table-start--
+dataClass=cl.innobis.model.Comment
+tableName=comment
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=task_id
+# --field-end--
+# --field-start--
+fieldName=descripcion
+# --field-end--
+# --field-start--
+fieldName=imagen
+dataPersister=BYTE_ARRAY
+# --field-end--
+# --field-start--
+fieldName=fechaCreacion
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=cl.innobis.model.Project
+tableName=project
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=start_date
+# --field-end--
+# --field-start--
+fieldName=end_date
+# --field-end--
+# --field-start--
+fieldName=progress
+# --field-end--
+# --field-start--
+fieldName=deleted
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=cl.innobis.model.Tasks
+tableName=tasks
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=expected_start_date
+# --field-end--
+# --field-start--
+fieldName=expected_end_date
+# --field-end--
+# --field-start--
+fieldName=start_date
+# --field-end--
+# --field-start--
+fieldName=end_date
+# --field-end--
+# --field-start--
+fieldName=sync
+# --field-end--
+# --field-start--
+fieldName=parent_id
+# --field-end--
+# --field-start--
+fieldName=progress
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=project_id
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=cl.innobis.model.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=nombre
+# --field-end--
+# --field-start--
+fieldName=password
+# --field-end--
+# --field-start--
+fieldName=role
+# --field-end--
+# --field-start--
+fieldName=mail
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
